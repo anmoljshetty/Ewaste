@@ -1,0 +1,162 @@
+
+/* index styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Body Styling */
+body {
+   background: linear-gradient(to right, #e2e2e2,rgb(137, 156, 216));
+    min-height: 100vh;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container Styling */
+.container {
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 2rem auto;
+}
+
+/* Form Elements */
+.form-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-105%);
+    left: 10px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #7d7deb;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* User Type Options */
+.user-type-options {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.user-type-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Iam {
+    color: #555;
+}
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #7d7deb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background: #5a5acf;
+}
+
+/* Divider */
+.or {
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #777;
+}
+
+/* Social Icons */
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.icons i {
+    font-size: 1.5rem;
+    color: #555;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #7d7deb;
+}
+
+/* Links Section */
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.links button {
+    background: none;
+    border: none;
+    color: #7d7deb;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.links button:hover {
+    text-decoration: underline;
+}
+
+/* Password Recovery */
+.recover {
+    text-align: right;
+    margin: 0.5rem 0;
+}
+
+.recover a {
+    color: #7d7deb;
+    text-decoration: none;
+}
+
+.recover a:hover {
+    text-decoration: underline;
+}
+.links p{
+    color: #555;
+}
